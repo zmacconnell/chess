@@ -11,12 +11,12 @@ namespace Unit06
         // ----------------------------------------------------------------------------------------- 
 
         // GAME
-        public static string GAME_NAME = "Batman: Game of a Year Edition";
+        public static string GAME_NAME = "Chess";
         public static int FRAME_RATE = 60;
 
         // SCREEN
         public static int SCREEN_WIDTH = 1040;
-        public static int SCREEN_HEIGHT = 680;
+        public static int SCREEN_HEIGHT = 1040;
         public static int CENTER_X = SCREEN_WIDTH / 2;
         public static int CENTER_Y = SCREEN_HEIGHT / 2;
 

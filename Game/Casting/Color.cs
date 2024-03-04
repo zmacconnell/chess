@@ -1,3 +1,6 @@
+using System.IO;
+using System.Xml;
+
 namespace Unit06.Game.Casting
 {
     /// <summary>
@@ -10,6 +13,10 @@ namespace Unit06.Game.Casting
         private int _blue;
         private int _alpha;
 
+        private int _black;
+
+        private int _white;
+
         /// <summary>
         /// Constructs a new instance of Color.
         /// </summary>
@@ -19,6 +26,8 @@ namespace Unit06.Game.Casting
             this._green = green;
             this._blue = blue;
             this._alpha = alpha;
+            // this._black = black;
+            // this._white = white;
         }
 
         /// <summary>
@@ -57,6 +66,20 @@ namespace Unit06.Game.Casting
             return _red;
         }
 
+        /// <summary>
+        /// Gets the white value.
+        /// </summary>
+        /// <returns>The white value.</returns>
+        // public int GetWhite() {
+        //     return _white;
+        // }
         
+        /// <summary>
+        /// Gets the black value.
+        /// </summary>
+        /// <returns>The black value.</returns>
+        // public int GetBlack() {
+        //     return _black
+        // }
     }
 }
