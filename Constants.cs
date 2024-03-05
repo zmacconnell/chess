@@ -12,7 +12,7 @@ namespace Unit06
 
         // GAME
         public static string GAME_NAME = "Chess";
-        public static int FRAME_RATE = 60;
+        public static int FRAME_RATE = 30;
 
         // SCREEN
         public static int SCREEN_WIDTH = 720;
@@ -78,7 +78,7 @@ namespace Unit06
 
         // LEVELS
         public static string LEVEL_FILE = "Assets/Data/level-{0:000}.txt";
-        public static int BASE_LEVELS = 10;
+        public static int BASE_LEVELS = 50;
 
         // ----------------------------------------------------------------------------------------- 
         // SCRIPTING CONSTANTS
@@ -137,7 +137,7 @@ namespace Unit06
         public static int PAWN_HEIGHT = 90;
         public static int PAWN_WIDTH = 90;
 
-        // WHITE BISHOPs
+        // WHITE BISHOPS
         public static string PAWN_GROUP = "bishops";
         public static string PAWN_IMAGE = "Assets/Images/bishop_white.png";
         public static int PAWN_HEIGHT = 90;

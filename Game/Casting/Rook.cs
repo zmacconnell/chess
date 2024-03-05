@@ -45,6 +45,5 @@ namespace Unit06.Game.Casting
         {
             return _points;
         }
-        
     }
 }
