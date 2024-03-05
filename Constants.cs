@@ -15,16 +15,30 @@ namespace Unit06
         public static int FRAME_RATE = 60;
 
         // SCREEN
-        public static int SCREEN_WIDTH = 1040;
-        public static int SCREEN_HEIGHT = 1040;
+        public static int SCREEN_WIDTH = 720;
+        public static int SCREEN_HEIGHT = 720;
         public static int CENTER_X = SCREEN_WIDTH / 2;
         public static int CENTER_Y = SCREEN_HEIGHT / 2;
 
         // FIELD
-        public static int FIELD_TOP = 60;
-        public static int FIELD_BOTTOM = SCREEN_HEIGHT;
-        public static int FIELD_LEFT = 0;
-        public static int FIELD_RIGHT = SCREEN_WIDTH;
+        public static int COLUMNS = SCREEN_WIDTH / 8;
+        public static int ROWS = SCREEN_HEIGHT / 8;
+        public static int COLUMN_A = COLUMNS * 0;
+        public static int COLUMN_B = COLUMNS * 1;
+        public static int COLUMN_C = COLUMNS * 2;
+        public static int COLUMN_D = COLUMNS * 3;
+        public static int COLUMN_E = COLUMNS * 4;
+        public static int COLUMN_F = COLUMNS * 5;
+        public static int COLUMN_G = COLUMNS * 6;
+        public static int COLUMN_H = COLUMNS * 7;
+        public static int ROW_1 = ROWS * 7;
+        public static int ROW_2 = ROWS * 6;
+        public static int ROW_3 = ROWS * 5;
+        public static int ROW_4 = ROWS * 4;
+        public static int ROW_5 = ROWS * 3;
+        public static int ROW_6 = ROWS * 2;
+        public static int ROW_7 = ROWS * 1;
+        public static int ROW_8 = ROWS * 0;
 
         // FONT
         public static string FONT_FILE = "Assets/Fonts/zorque.otf";
@@ -104,6 +118,42 @@ namespace Unit06
         public static int BALL_HEIGHT = 27;
         public static int BALL_VELOCITY = 6;
         public static int SHOOT_BALL = 0;
+
+        // WHITE PAWNS
+        public static string PAWN_GROUP = "pawns";
+        public static string PAWN_IMAGE = "Assets/Images/pawn_white.png";
+        public static int PAWN_HEIGHT = 90;
+        public static int PAWN_WIDTH = 90;
+        
+        // WHITE KING
+        public static string PAWN_GROUP = "kings";
+        public static string PAWN_IMAGE = "Assets/Images/king_white.png";
+        public static int PAWN_HEIGHT = 90;
+        public static int PAWN_WIDTH = 90;
+
+        // WHITE QUEEN
+        public static string PAWN_GROUP = "queens";
+        public static string PAWN_IMAGE = "Assets/Images/queen_white.png";
+        public static int PAWN_HEIGHT = 90;
+        public static int PAWN_WIDTH = 90;
+
+        // WHITE BISHOPs
+        public static string PAWN_GROUP = "bishops";
+        public static string PAWN_IMAGE = "Assets/Images/bishop_white.png";
+        public static int PAWN_HEIGHT = 90;
+        public static int PAWN_WIDTH = 90;
+
+        // WHITE KNIGHT
+        public static string PAWN_GROUP = "knights";
+        public static string PAWN_IMAGE = "Assets/Images/knight_white.png";
+        public static int PAWN_HEIGHT = 90;
+        public static int PAWN_WIDTH = 90;
+
+        // WHITE ROOKS
+        public static string PAWN_GROUP = "rooks";
+        public static string PAWN_IMAGE = "Assets/Images/rook_white.png";
+        public static int PAWN_HEIGHT = 90;
+        public static int PAWN_WIDTH = 90;
 
         // RACKET
         public static string RACKET_GROUP = "rackets";
