@@ -1,0 +1,6 @@
+/Users/zach/Desktop/Zach/Winter/coding/cse310/chess/obj/Debug/net6.0/chess.csproj.AssemblyReference.cache
+/Users/zach/Desktop/Zach/Winter/coding/cse310/chess/obj/Debug/net6.0/chess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zach/Desktop/Zach/Winter/coding/cse310/chess/obj/Debug/net6.0/chess.AssemblyInfoInputs.cache
+/Users/zach/Desktop/Zach/Winter/coding/cse310/chess/obj/Debug/net6.0/chess.AssemblyInfo.cs
+/Users/zach/Desktop/Zach/Winter/coding/cse310/chess/obj/Debug/net6.0/chess.csproj.CoreCompileInputs.cache
+/Users/zach/Desktop/Zach/Winter/coding/cse310/chess/obj/Debug/net6.0/chess.sourcelink.json

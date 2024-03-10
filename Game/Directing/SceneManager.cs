@@ -62,6 +62,7 @@ namespace Unit06.Game.Directing
             AddLevel(cast);
             AddScore(cast);
             AddLives(cast);
+            DrawImage("board.png", (0,0))
             AddBall(cast);
             AddBricks(cast);
             AddRacket(cast);
